@@ -1,16 +1,19 @@
 class script(object):
     START_TXT = """𝐇𝐄𝐋𝐋𝐎 {}, 
 𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒 <a href=https://t.me/{}>{}</a>, 𝐈 𝐂𝐀𝐍 𝐏𝐑𝐎𝐕𝐈𝐃𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐀𝐍𝐃 𝐒𝐄𝐑𝐈𝐄𝐒 𝐓𝐇𝐀𝐓 𝐘𝐎𝐔 𝐍𝐄𝐄𝐃. 
+
 𝙄 𝙒𝙊𝙍𝙆 𝙁𝙊𝙍 𝙏𝙀𝘼𝙈 <a href='https://t.me/+AdnOzGkxSo84NzVl'>𝙏𝙀𝙇𝙀𝙁𝙇𝙄𝙓</a>
+
 𝙈𝙮 𝘿𝙀𝙑 :- <a href='http://t.me/dark_lord_8'>𝗔𝗞𝗦𝗛𝗔𝗬</a>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/EnthadaNokunne>𝔖𝔱𝔢𝔳𝔢</a>
+    ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/Dark_Lord_8>🄰🄺🅂🄷🄰🅈</a>
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱"""
-    SOURCE_TXT = """<b>Sorry Source Code Of This Bot is Private Add This Bot in Your Group And Use Like Yours😊"""
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: പച്ച മലയാളം
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙺𝙾𝙻𝙻𝙰𝙼
+✯ 𝙱𝙾𝚃 𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/+AdnOzGkxSo84NzVl'>𝗧𝗘𝗟𝗘𝗙𝗟𝗜𝗫</a></b>"""
+    SOURCE_TXT = """<b>Sorry Source Code Of This Bot is Private😊"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and 𝘾𝙝𝙖𝙧𝙡𝙞𝙚 𝘾𝙝𝙖𝙥𝙡𝙞𝙣 will respond whenever a keyword is found the message
