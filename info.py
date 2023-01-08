@@ -48,13 +48,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", """ **{file_name}**(`{file_size}`) 
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-താഴെയുള്ള ലിങ്കിൽ ക്ലിക്ക് ചെയ്ത് ഗ്രൂപ്പിൽ ജോയിൻ ആയ ശേഷം സിനിമ ഡൌൺലോഡ് ചെയ്യുക. അല്ലെങ്കിൽ ഫയൽ വർക്ക്‌ ആവില്ല 😪
-🚦Group 1👉  [📽 ᴄɪɴᴇᴍᴀ ᴄᴏᴍᴘᴀɴʏ 📽](https://t.me/CinemaCompany_Group) 
-🚦Group 2👉 [🟢ᴄɪɴᴇᴍᴀ ᴛᴀʟᴋɪᴇꜱ 🟢](https://t.me/Cinema_Talkies_Group)
-🚦Group 3👉 [⭕ᴍᴀʟʟᴜ ᴛᴀʟᴋɪᴇꜱ⭕](https://t.me/MalluTalkies_Group)
-🚦Group 4👉[🔅ᴍᴏᴠɪᴇ ʜᴜʙ🔅](https://t.me/MovieHub_Group)""")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", '📝𝙁𝙞𝙡𝙚 𝙉𝙖𝙢𝙚 :- <code>[𝐓𝐄𝐋𝐄𝐅𝐋𝐈𝐗]{file_name}</code> \n\n📝𝗥𝗲𝗮𝗹 𝗡𝗮𝗺𝗲 :- <code>[𝐓𝐄𝐋𝐄𝐅𝐋𝐈𝐗]{file_caption}</code> \n\n<b>📣𝘾𝙝𝙖𝙣𝙣𝙚𝙡 :- https://t.me/+F5q5FrmphOozMjRl</b> \n\n<b>📣𝙂𝙧𝙤𝙪𝙥 :- https://t.me/+AdnOzGkxSo84NzVl</b>')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>Query: {query}</b> \n‌‌‌‌IMDb Data:\n\n🏷 Title: <a href={url}>{title}</a>\n🎭 Genres: {genres}\n📆 Year: <a href={url}/releaseinfo>{year}</a>\n🌟 Rating: <a href={url}/ratings>{rating}</a> / 10")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
