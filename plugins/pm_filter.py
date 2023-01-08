@@ -97,12 +97,13 @@ async def next_page(bot, query):
     elif off_set is None:
         btn.insert(0,
             [
-                InlineKeyboardButton("Ott Update", url="https://t.me/Ott_UpdatezTG"),
+                InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1'),
             ]
         )
         btn.insert(1,
             [
-                InlineKeyboardButton("Groups", url="https://t.me/Group_Linkzzzz"),
+                InlineKeyboardButton("💡New Release Updates", url="https://t.me/TeamTELEFLIX"), 
+                InlineKeyboardButton("🔮Group", url="https://t.me/+AdnOzGkxSo84NzVl")
             ]
         )
         btn.append(
@@ -648,7 +649,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"🔅[{get_size(file.file_size)}] 💮 {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -670,12 +671,13 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("Ott Update", url="https://t.me/Ott_UpdatezTG"),
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst1'),
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton("Groups", url="https://t.me/Group_Linkzzzz"),
+            InlineKeyboardButton("💡New Release Updates", url="https://t.me/TeamTELEFLIX"), 
+            InlineKeyboardButton("🔮Group", url="https://t.me/+AdnOzGkxSo84NzVl")
         ]
     )
 
@@ -726,7 +728,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query <u><i>{search}</u></i>"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍</b>\n\n<b><i>🔖 Title : {search}</b>\n<b>📫 Your Files is Ready Now</b></i>\n\n<b><i>🅒 2023 | 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : @TeamTELEFLIX**</b></i>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
