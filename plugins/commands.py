@@ -188,8 +188,8 @@ reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇
         
     buttons = [
                     [
-                        InlineKeyboardButton('Group 1', url='https://t.me/Cinema_Talkies_Group'),
-                        InlineKeyboardButton('Group 2', url='https://t.me/CinemaCompany_Group')
+                        InlineKeyboardButton('Group 1', url='https://t.me/TeamTELEFLIX'),
+                        InlineKeyboardButton('Group 2', url='https://t.me/TeamTELEFLIX')
                     ]
                     ]
     files_ = await get_file_details(file_id)           
