@@ -102,7 +102,7 @@ async def next_page(bot, query):
         )
         btn.insert(1,
             [
-                InlineKeyboardButton("💡New Release Updates", url="https://t.me/TeamTELEFLIX"), 
+                InlineKeyboardButton("💡New Release Updates", url="https://t.me/TeamTELEFLIXX"), 
                 InlineKeyboardButton("🔮Group", url="https://t.me/+AdnOzGkxSo84NzVl")
             ]
         )
@@ -145,7 +145,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database Say In Our Other Group To Get This Movies\n\n<a href='https://t.me/Group_Linkzzzz'>Our Groups</a></b>")
+            k = await query.message.edit("<b>📍 Movie Not available Reasons\n\n<i>1) O.T.T Or DVD Not Released\n\n2) Type Name With Year</i> \n\n3) Movie Is Not Available in the database</b>")
             await asyncio.sleep(10)
             await k.delete()
 
@@ -676,7 +676,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton("💡New Release Updates", url="https://t.me/TeamTELEFLIX"), 
+            InlineKeyboardButton("💡New Release Updates", url="https://t.me/TeamTELEFLIXX"), 
             InlineKeyboardButton("🔮Group", url="https://t.me/+AdnOzGkxSo84NzVl")
         ]
     )
@@ -728,7 +728,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍</b>\n\n<b><i>🔖 Title : {search}</b>\n<b>📫 Your Files is Ready Now</b></i>\n\n<b><i>🅒 2023 | 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : @TeamTELEFLIX**</b></i>"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍</b>\n\n<b><i>🔖 Title : {search}</b>\n<b>📫 Your Files is Ready Now</b></i>\n\n<b><i>🅒 2023 | 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : @TeamTELEFLIXX**</b></i>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
@@ -755,7 +755,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        k = await msg.reply("<b>I couldn't find anything in than name.\n\n<a href='https://t.me/Group_Linkzzzz'>Check in our other groups</a></b>")
+        k = await msg.reply("<b>I couldn't find anything in than name.\n\nCheck correct spelling of the movie/series you want on google and then send request again with the correct spelling 🥹</b>")
         await asyncio.sleep(8)
         await k.delete()
         return
