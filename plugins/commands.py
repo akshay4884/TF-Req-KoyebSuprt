@@ -122,7 +122,7 @@ async def start(client, message):
                     file_id=msg.get("file_id"),
                     caption=f_caption,
 
-reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/TeamTELEFLIX") ] ] ),
+reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/TF_Teleflix") ] ] ),
 
                     protect_content=msg.get('protect', False),
                     )
@@ -188,8 +188,8 @@ reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇
         
     buttons = [
                     [
-                        InlineKeyboardButton('Group 1', url='https://t.me/TeamTELEFLIX'),
-                        InlineKeyboardButton('Group 2', url='https://t.me/TeamTELEFLIX')
+                        InlineKeyboardButton('Group 1', url='https://t.me/TF_Teleflix'),
+                        InlineKeyboardButton('Group 2', url='https://t.me/TF_Teleflix')
                     ]
                     ]
     files_ = await get_file_details(file_id)           
@@ -233,7 +233,7 @@ reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇
         file_id=file_id,
         caption=f_caption,
 
-reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/TeamTELEFLIX") ] ] ),
+reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton("㊗️  𝙐𝙋𝙇𝙊𝘼𝘿𝙀𝙍  ㊗️", url="https://t.me/TF_Teleflix") ] ] ),
 
         protect_content=True if pre == 'filep' else False,
         )
