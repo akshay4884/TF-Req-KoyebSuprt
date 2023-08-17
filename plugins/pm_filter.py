@@ -102,7 +102,7 @@ async def next_page(bot, query):
         )
         btn.insert(1,
             [
-                InlineKeyboardButton("💡New Release Updates", url="https://t.me/TeamTELEFLIXXX"), 
+                InlineKeyboardButton("💡New Release Updates", url="https://t.me/TF_Teleflix"), 
                 InlineKeyboardButton("🔮Group", url="https://t.me/+AdnOzGkxSo84NzVl")
             ]
         )
@@ -676,7 +676,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton("💡New Release Updates", url="https://t.me/TeamTELEFLIXXX"), 
+            InlineKeyboardButton("💡New Release Updates", url="https://t.me/TF_Teleflix"), 
             InlineKeyboardButton("🔮Group", url="https://t.me/+AdnOzGkxSo84NzVl")
         ]
     )
@@ -728,7 +728,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍</b>\n\n<b><i>🔖 Title : {search}</b>\n<b>📫 Your Files is Ready Now</b></i>\n\n<b><i>🅒 2023 | 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : @TeamTELEFLIXXX</b></i>"
+        cap = f"<b>Hey 👋🏻 {message.from_user.mention} 😍</b>\n\n<b><i>🔖 Title : {search}</b>\n<b>📫 Your Files is Ready Now</b></i>\n\n<b><i>🅒 2023 | 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 : @TF_Teleflix</b></i>"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
