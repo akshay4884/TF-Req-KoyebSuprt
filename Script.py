@@ -3,9 +3,8 @@ class script(object):
 
 𝐌𝐘 𝐍𝐀𝐌𝐄 𝐈𝐒 <a href=https://t.me/{}>{}</a>, 𝐈 𝐂𝐀𝐍 𝐏𝐑𝐎𝐕𝐈𝐃𝐄 𝐌𝐎𝐕𝐈𝐄𝐒 𝐀𝐍𝐃 𝐒𝐄𝐑𝐈𝐄𝐒 𝐓𝐇𝐀𝐓 𝐘𝐎𝐔 𝐍𝐄𝐄𝐃. 
 
-𝙄 𝙒𝙊𝙍𝙆 𝙁𝙊𝙍 <a href='https://t.me/+AdnOzGkxSo84NzVl'>𝙏𝙀𝙇𝙀𝙁𝙇𝙄𝙓</a>
-
-𝙈𝙮 𝘿𝙀𝙑 :- <a href='http://t.me/dark_lord_8'>𝗔𝗞𝗦𝗛𝗔𝗬</a>"""
+𝙄 𝙒𝙊𝙍𝙆 𝙁𝙊𝙍 <a href='https://t.me/+HgoW0jtbZKUwMDM1'>𝙏𝙀𝙇𝙀𝙁𝙇𝙄𝙓</a>"""
+    
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
@@ -13,7 +12,7 @@ class script(object):
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: പച്ച മലയാളം
 ✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙺𝙾𝙻𝙻𝙰𝙼
-✯ 𝙱𝙾𝚃 𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/+AdnOzGkxSo84NzVl'>𝗧𝗘𝗟𝗘𝗙𝗟𝗜𝗫</a></b>"""
+✯ 𝙱𝙾𝚃 𝙶𝚛𝚘𝚞𝚙 : <a href='https://t.me/+HgoW0jtbZKUwMDM1'>𝗧𝗘𝗟𝗘𝗙𝗟𝗜𝗫</a></b>"""
     SOURCE_TXT = """<b>Sorry Source Code Of This Bot is Private😊"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
